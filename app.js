@@ -24,7 +24,6 @@ app.use(logger('dev'));
  const corsOptionsDelegate = (req, callback) => {
    let corsOptions;
    let isDomainAllowed = allowlist.indexOf(req.header('Origin')) !== -1;
-   console.log('--------------::', isDomainAllowed);
   //  let isExtensionAllowed = req.path.endsWith('.jpg');
  
    if (isDomainAllowed) {
