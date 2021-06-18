@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send({ title: 'Universal Application', descripton: 'Test Description!', image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fgta-5-1920x1080&psig=AOvVaw1avQEYney6aHq6ASJCyEZn&ust=1624100516325000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCKjH8IqEofECFQAAAAAdAAAAABAD' });
+  res.send({ title: 'Muhammad Zubaid Rasool', description: 'MEAN/MERN Stack Developer!', image: 'https://media-exp1.licdn.com/dms/image/C4D03AQFC9RnRbt5eJQ/profile-displayphoto-shrink_200_200/0/1601135281198?e=1628121600&v=beta&t=k1-XLgR6zZCq-XrN5XsFBBek01HINT73NcIWiMqmFvQ' });
 });
 
 module.exports = router;
