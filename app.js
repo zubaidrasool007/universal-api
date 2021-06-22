@@ -19,12 +19,11 @@ app.use(logger('dev'));
 /**
  * Set CORS for the Server
  */
- const allowlist = ['http://localhost:4201'];
+ const allowlist = ['http://localhost:4201', 'http://localhost:4200', 'http://localhost:4300', 'http://192.168.1.23:4200'];
 
  const corsOptionsDelegate = (req, callback) => {
    let corsOptions;
    let isDomainAllowed = allowlist.indexOf(req.header('Origin')) !== -1;
-  //  let isExtensionAllowed = req.path.endsWith('.jpg');
  
    if (isDomainAllowed) {
      // Enable CORS for this request
