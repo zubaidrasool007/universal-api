@@ -3,16 +3,16 @@ var router = express.Router();
 
 /* GET user Meta Data. */
 router.get('/', function(req, res, next) {
-  res.send({ title: 'Muhammad Zubaid Rasool', description: 'MEAN/MERN Stack Developer!', image: 'https://media-exp1.licdn.com/dms/image/C4D03AQFC9RnRbt5eJQ/profile-displayphoto-shrink_200_200/0/1601135281198?e=1628121600&v=beta&t=k1-XLgR6zZCq-XrN5XsFBBek01HINT73NcIWiMqmFvQ' });
+  res.send({ title: 'Test User', description: 'MEAN/MERN Stack Developer!' });
 });
 
 /* GET user Data. */
 router.get('/1', function(req, res, next) {
   res.send({
-    title: 'Muhammad Zubaid Rasool',
-    description: 'MEAN/MERN Stack Developer!',
+    title: 'Test User',
+    description: 'Full Stack Developer for the JS frameworks (Angular, React, NodeJS)!',
     currentCompany: 'Allomate Solutions',
-    image: 'https://media-exp1.licdn.com/dms/image/C4D03AQFC9RnRbt5eJQ/profile-displayphoto-shrink_200_200/0/1601135281198?e=1628121600&v=beta&t=k1-XLgR6zZCq-XrN5XsFBBek01HINT73NcIWiMqmFvQ',
+    // image: 'https://media-exp1.licdn.com/dms/image/C4D03AQFC9RnRbt5eJQ/profile-displayphoto-shrink_200_200/0/1601135281198?e=1628121600&v=beta&t=k1-XLgR6zZCq-XrN5XsFBBek01HINT73NcIWiMqmFvQ',
     projects: [
       {
         title: 'EPHA',
